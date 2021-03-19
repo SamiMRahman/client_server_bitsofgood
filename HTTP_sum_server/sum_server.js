@@ -1,4 +1,5 @@
-const express = require("express") // create express module object
+const express = require('express') // create express module object
+const bodyParser = require('body-parser')
 const app = express() //init Express
 
 /** Server should have 2 endpoints
